@@ -28,9 +28,9 @@ from sqlalchemy.ext.declarative import declarative_base ## esto nos permitira cr
 
 
 
-## SQLALCHEMY_DATABASE_URL = 'sqlite:///./todosapp.db' ## Declaramos el directorio donde vivira nuestra base de datos // database para testeo
+SQLALCHEMY_DATABASE_URL = 'sqlite:///./todosapp.db' ## Declaramos el directorio donde vivira nuestra base de datos // database para testeo
 
-SQLALCHEMY_DATABASE_URL = 'postgresql://todoappdatabase_jsu2_user:srv81qxGf2KNd14wAyERxQ90GytXYjoo@dpg-cr3d83sqf0us73e52j3g-a:5432/todoappdatabase_jsu2' # datos para conectarse a databse de produccion postgre
+## SQLALCHEMY_DATABASE_URL = 'postgresql://postgres:Argentina2018@localhost/TodoAppDatabase' # datos para conectarse a databse de produccion postgre
 
 ## Creamos el motor y le pasamos la URL donde se alojara nuestra sql, tambien le pasamos connect_args que 
 ## gestionara cada hilo de forma independiente
