@@ -1,0 +1,4 @@
+## Cosas para instalar vincular backend con frontend ##
+
+pip install aiofiles
+pip install jinja2
